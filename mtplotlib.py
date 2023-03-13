@@ -1,6 +1,29 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+import matplotlib.pyplot as plt
+
+# данные для диаграммы тип красивый
+# labels = ['Apples', 'Oranges', 'Bananas', 'Pears']
+# sizes = [25, 30, 20, 15]
+# colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99']
+#
+# # создаем кольцевую диаграмму
+# fig, ax = plt.subplots()
+# ax.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90, pctdistance=0.85,
+#        wedgeprops=dict(width=0.7, edgecolor='w'))
+#
+# # добавляем текст в центр кольца
+# centre_circle = plt.Circle((0, 0), 0.70, fc='white')
+# fig.gca().add_artist(centre_circle)
+# plt.text(0, 0, 'Fruit', ha='center', va='center', fontsize=20)
+#
+# # настраиваем стиль
+# ax.axis('equal')
+# plt.tight_layout()
+# plt.show()
+
+
 labels = ['A', 'B', 'C', 'D', 'E']
 sizes = [15, 30, 25, 10, 20]
 colors = ['gold', 'yellowgreen', 'lightcoral', 'lightskyblue', 'orange']
